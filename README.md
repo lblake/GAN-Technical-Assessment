@@ -18,8 +18,7 @@ B: Running 'npx cypress run' this will run the test in ‘headless’ mode (no b
 #NOTE: The https://moneygaming.qa.gameaccount.com/ homepage takes around 2 minutes to load this will cause the cypress automated test sometime to complete. This is an issue with the site and not an issue with cypress functionallity.
 
 
-
-# BDD Scenarios
+# BDD Scenarios 
 
 
 Feature: Registration
@@ -137,3 +136,10 @@ Scenario: User enters an invalid day
     And the user selects the 'I accept the Terms and Conditions and certify that I am over the age of 18.'checkbox
     And the user selects the 'Join NOW!' button
     Then the sign-up form should display 'Please enter a valid day'
+
+
+# Question 2:
+
+The feature file for this question can be found here:
+
+https://github.com/lblake/GAN-Technical-Assessment/blob/master/cypress/features/stepDefinitions/FIRSTNAME_LASTNAME_MG.feature
