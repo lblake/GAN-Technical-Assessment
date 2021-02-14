@@ -1,0 +1,16 @@
+{
+  "name": "gan",
+  "version": "1.0.0",
+  "description": "GAN automation test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lloyd Blake",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^7.0.0-rc.0",
+    "cypress": "^6.4.0"
+  },
+  "dependencies": {}
+}
