@@ -21,7 +21,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
           cy.get('#form').click()
          //Validates that the text message ‘This field is required’ appears under date of birth box
           cy.get('[for="dob"]').should('contain', 'This field is required')
-          cy.wait(6000)
+          
         
 
 
